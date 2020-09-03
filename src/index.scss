@@ -1,0 +1,19 @@
+$r: red;
+$g: green;
+$b: blue;
+
+.img {
+    width: 60px;
+    height: 60px;
+
+    &.red {
+        color: $r;
+    }
+    &.green {
+        color: $g;
+    }
+    &.blue {
+        color: $b;
+        background-color: $r;
+    }
+}
